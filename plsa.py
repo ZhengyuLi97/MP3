@@ -233,7 +233,7 @@ class Corpus(object):
 
             # ############################
             # your code here
-            # ############################
+            # ############################\
             self.expectation_step()
             self.maximization_step(number_of_topics)
             self.calculate_likelihood(number_of_topics)
